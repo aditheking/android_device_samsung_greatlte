@@ -13,3 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+LOCAL_PATH := device/samsung/hero2lte
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
