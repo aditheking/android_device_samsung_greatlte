@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/hero2lte
+LOCAL_PATH := device/samsung/dream2lte
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
