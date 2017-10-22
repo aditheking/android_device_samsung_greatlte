@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/universal8895
-TARGET_KERNEL_CONFIG := greatlte_eur_open_defconfig
+LOCAL_PATH := device/samsung/greatlte
 
-# Inherit common board flags
-include device/samsung/universal8895-common/BoardConfigCommon.mk
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
