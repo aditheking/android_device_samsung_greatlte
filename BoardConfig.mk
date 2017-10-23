@@ -18,5 +18,8 @@
 TARGET_KERNEL_SOURCE := kernel/samsung/universal8895
 TARGET_KERNEL_CONFIG := greatlte_eur_open_defconfig
 
+# Recovery
+TARGET_OTA_ASSERT_DEVICE := greatlte,greatltexx
+
 # Inherit common board flags
 include device/samsung/universal8895-common/BoardConfigCommon.mk
